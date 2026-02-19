@@ -10,9 +10,17 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* custom colors */
+  --color-jsky: #c3ebfa;
+  --color-skylight: #edf9fd;
+  --color-skypurple: #cfceff;
+  --color-purplelight: #f1f0ff;
+  --color-skyyellow: #fae27c;
+  --color-yellolight: #fefce8;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
