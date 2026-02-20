@@ -17,7 +17,7 @@
   --color-skypurple: #cfceff;
   --color-purplelight: #f1f0ff;
   --color-skyyellow: #fae27c;
-  --color-yellolight: #fefce8;
+  --color-yellowlight: #fefce8;
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,4 +31,19 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.react-calendar {
+  width: 100% !important;
+  border: none !important;
+  font-family: "Inter", sans-serif !important;
+}
+
+.react-calendar__tile--active {
+  background-color: #c3ebfa !important;
+  color: black !important;
+}
+
+.react-calendar__navigation__label {
+  font-weight: 600 !important;
 }
