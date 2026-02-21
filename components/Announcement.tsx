@@ -19,7 +19,7 @@ const Announcement = () => {
             </span>
           </div>
 
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 mt-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
             facilis quam rerum illo, voluptate excepturi
           </p>
@@ -33,7 +33,7 @@ const Announcement = () => {
             </span>
           </div>
 
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 mt-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
             facilis quam rerum illo, voluptate excepturi
           </p>
@@ -47,7 +47,7 @@ const Announcement = () => {
             </span>
           </div>
 
-          <p className="text-sm text-gray-400">
+          <p className="text-sm text-gray-400 mt-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
             facilis quam rerum illo, voluptate excepturi
           </p>
