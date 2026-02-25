@@ -3,6 +3,7 @@ import BigCalendar from "@/components/BigCalendar";
 import Image from "next/image";
 import Link from "next/link";
 import Performance from "@/components/Performance";
+import FormModal from "@/components/FormModal";
 
 const SingleTeacherPage = () => {
   return (
@@ -26,7 +27,27 @@ const SingleTeacherPage = () => {
             </div>
 
             <div className="w-2/3 flex flex-col justify-between gap-4">
-              <h1 className="text-xl font-semibold">Jack Snyder</h1>
+              <div className="flex items-center gap-4">
+                <h1 className="text-xl font-semibold">Jack Snyder</h1>
+                <FormModal
+                  table="teacher"
+                  type="update"
+                  data={{
+                    id: 1,
+                    username: "uguro",
+                    email: "uguro@gmail.com",
+                    password: "12345678",
+                    firstname: "joy",
+                    lastname: "boy",
+                    phone: "01834363435",
+                    address: "1234, Mirpur, Dhaka",
+                    bloodType: "B+",
+                    dateOfBirth: "1999-01-01",
+                    sex: "male",
+                    img: "https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+                  }}
+                />
+              </div>
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet
               </p>
