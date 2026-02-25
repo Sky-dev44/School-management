@@ -26,7 +26,7 @@ const SingleStudentPage = () => {
             </div>
 
             <div className="w-2/3 flex flex-col justify-between gap-4">
-              <h1 className="text-xl font-semibold"></h1>
+              <h1 className="text-xl font-semibold">Arnold Viks</h1>
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet
               </p>
@@ -79,8 +79,8 @@ const SingleStudentPage = () => {
                 className="w-6 h-6"
               />
               <div className="">
-                <h1 className="text-xl font-semibold">2</h1>
-                <span className="text-sm text-gray-400">Branches</span>
+                <h1 className="text-xl font-semibold">6th</h1>
+                <span className="text-sm text-gray-400">Grade</span>
               </div>
             </div>
 
@@ -93,7 +93,7 @@ const SingleStudentPage = () => {
                 className="w-6 h-6"
               />
               <div className="w-full bg-white rounded-md p-4 gap-4 md:w-[48%] xl:w-[45%] 2xl:w-[48%]">
-                <h1 className="text-xl font-semibold">6</h1>
+                <h1 className="text-xl font-semibold">17</h1>
                 <span className="text-sm text-gray-400">Lessons</span>
               </div>
             </div>
@@ -107,8 +107,8 @@ const SingleStudentPage = () => {
                 className="w-6 h-6"
               />
               <div className="">
-                <h1 className="text-xl font-semibold">6</h1>
-                <span className="text-sm text-gray-400">Classes</span>
+                <h1 className="text-xl font-semibold">6A</h1>
+                <span className="text-sm text-gray-400">Class</span>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@ const SingleStudentPage = () => {
 
         {/* BOTTOM */}
         <div className="mt-4 bg-white rounded-md p-4 h-[800px]">
-          <h1>Teacher's Schedule</h1>
+          <h1>Student's Schedule</h1>
           <BigCalendar />
         </div>
       </div>
@@ -127,23 +127,23 @@ const SingleStudentPage = () => {
 
           <div className="mt-4 gap-4 flex flex-wrap text-xs text-gray-500">
             <Link className="p-3 rounded-md bg-skylight" href={"/"}>
-              Teacher's Classes
+              Student's Lessons
             </Link>
 
             <Link className="p-3 rounded-md bg-purplelight" href={"/"}>
-              Teacher's Students
-            </Link>
-
-            <Link className="p-3 rounded-md bg-yellowlight" href={"/"}>
-              Teacher's Lessons
+              Student's Teachers
             </Link>
 
             <Link className="p-3 rounded-md bg-pink-50" href={"/"}>
-              Teacher's Exams
+              Student's Exams
             </Link>
 
             <Link className="p-3 rounded-md bg-skylight" href={"/"}>
-              Teacher's Assignments
+              Student's Assignments
+            </Link>
+
+            <Link className="p-3 rounded-md bg-yellowlight" href={"/"}>
+              Student's Results
             </Link>
           </div>
         </div>
